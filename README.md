@@ -3,12 +3,14 @@
 
 ### Swap Script: Temporarily increase swap file size with enlarge_swap.sh
 
-The default swap file size on Ubuntu Server 18.04 is only 4 Gigabytes.  In contrast, desktop Dell Ubuntu 16.04 allocates
-over 30 GB.
+Server default swap file size on Ubuntu Server 18.04 is 4 Gigabytes.  In contrast, desktop Dell Ubuntu 16.04 allocates
+over 30 GB.  The likely assumption is servers enjoy lots of RAM.  But this may be untrue, especially for home-based,
+personal servers.
 
 #### <ins>Use Case:</ins>
-Apps like LightGBM may need a larger swap to avoid program termination due to insufficient memory.  For example, fitting
-the gradient boosting model with larger training data causes memory usage spikes.
+Tree-based learning algorithms like LightGBM can need a lot of RAM.  For example, fitting the gradient boosting
+model with larger training data causes memory usage spikes.  A swap file prevents program termination due to 
+insufficient RAM by writing data to the hard disk.
 
 ### How to use:
 ***
