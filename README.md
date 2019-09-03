@@ -1,7 +1,7 @@
 # linux_scripts
-Tested on Ubuntu 18.04 LTS Bionic Beaver
+*Tested on Ubuntu 18.04 LTS Bionic Beaver*
 
-### Swap Script: Temporarily increase swap file size on Ubuntu with enlarge_swap.sh
+### Swap Script: Temporarily increase swap file size with enlarge_swap.sh
 
 The default swap file size on Ubuntu Server 18.04 is only 4 Gigabytes.  In contrast, desktop Dell Ubuntu 16.04 allocates
 over 30 GB.
