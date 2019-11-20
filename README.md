@@ -28,5 +28,3 @@ Otherwise, exit the script with "Ctrl-C".  Enter the desired swap size in Gigaby
 
 ![Alt text](images/enlarge-swap-pic.PNG)
 
-The change is **temporary**.  Rebooting the system will revert swap size to the default.  The fstab file at /etc/fstab must be
-updated to make the change permanent.
